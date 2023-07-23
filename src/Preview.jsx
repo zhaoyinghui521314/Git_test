@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const FileUploader = () => {
+  console.log("我是a的改动啊");
   const [selectedFile, setSelectedFile] = useState(null);
   const [previewUrl, setPreviewUrl] = useState("");
 

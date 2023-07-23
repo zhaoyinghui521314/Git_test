@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const FileUploader = () => {
   const [selectedFile, setSelectedFile] = useState(null);
   const [previewUrl, setPreviewUrl] = useState("");
+  console.log("我是b的改动啊");
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
